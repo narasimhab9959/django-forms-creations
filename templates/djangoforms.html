@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>djangoforms</title>
+</head>
+<body>
+    <center>
+        <th>djangoforms</th>
+        <form method="POST">
+            {% csrf_token %}
+            {{SUFO.as_p}}
+
+            <input type="submit" value="django">
+        </form>
+    </center>
+</body>
+</html>
